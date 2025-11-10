@@ -1,0 +1,23 @@
+{
+  "name": "try_self_network",
+  "version": "1.0.0",
+  "description": "一次开创意义的尝试",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Faitin-AHQ/try_self_network.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Faitin-AHQ/try_self_network/issues"
+  },
+  "homepage": "https://github.com/Faitin-AHQ/try_self_network#readme",
+  "devDependencies": {
+    "astro": "^5.15.4"
+  }
+}

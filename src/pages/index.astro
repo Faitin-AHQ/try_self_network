@@ -1,0 +1,38 @@
+---
+// src/pages/index.astro
+import '../styles/home.css';
+---
+
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>这是一个测试网页</title>
+    <meta name="description" content="飞网站样式仅供参考，主要探究其可访问性" />
+  </head>
+
+  <body>
+    <!-- 添加 class="title-section" 到 header -->
+    <header class="title-section">
+      <h1>测试网页主页</h1>
+      <p>主页副标题</p>
+      <!-- 确保 quick-nav 在样式上正确显示 -->
+      <nav class="quick-nav" aria-label="快速导航">
+        <a href="/1">论文</a>
+        <a href="/2">设计</a>
+        <a href="/3">图片</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="welcome-section">
+        <h2>第一个内容块</h2>
+        <p>“具体内容”</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>脚注</p>
+    </footer>
+  </body>
+</html>
